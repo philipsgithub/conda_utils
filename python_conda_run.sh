@@ -1,4 +1,4 @@
-# Utils
+# Careful: Only works for packages with activation scripts.
 air() {
   if [[ $(which conda) ]]; then
     if [[ $1 == "" || $1 == "--help" || ( $1 != "" && $2 == "" ) ]]; then
